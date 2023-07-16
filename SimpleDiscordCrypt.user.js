@@ -1,12 +1,12 @@
 // ==UserScript==
 // @name         SimpleDiscordCrypt
-// @namespace    https://gitlab.com/An0/SimpleDiscordCrypt
+// @namespace    https://github.com/b2cktr2ck/Simple-Discord-Crypted
 // @version      1.7.1.3
 // @description  I hope people won't start calling this SDC ^_^
 // @author       An0
 // @license      LGPLv3 - https://www.gnu.org/licenses/lgpl-3.0.txt
-// @downloadURL  https://gitlab.com/An0/SimpleDiscordCrypt/raw/master/SimpleDiscordCrypt.user.js
-// @updateURL    https://gitlab.com/An0/SimpleDiscordCrypt/raw/master/SimpleDiscordCrypt.meta.js
+// @downloadURL  https://raw.githubusercontent.com/b2cktr2ck/Simple-Discord-Crypted/main/SimpleDiscordCrypt.user.js
+// @updateURL    https://raw.githubusercontent.com/b2cktr2ck/Simple-Discord-Crypted/main/SimpleDiscordCrypt.meta.js
 // @icon         https://gitlab.com/An0/SimpleDiscordCrypt/raw/master/logo.png
 // @match        https://*.discord.com/channels/*
 // @match        https://*.discord.com/activity
@@ -28,7 +28,7 @@
 
 'use strict';
 
-const BlacklistUrl = "https://gitlab.com/An0/SimpleDiscordCrypt/raw/master/blacklist.txt";
+const BlacklistUrl = "https://raw.githubusercontent.com/b2cktr2ck/Simple-Discord-Crypted/main/blacklist.txt";
 
 const SavedLocalStorage = (typeof(localStorage) !== 'undefined') ? localStorage : null;
 const FixedCsp = (typeof(CspDisarmed) !== 'undefined') ? CspDisarmed : false;
