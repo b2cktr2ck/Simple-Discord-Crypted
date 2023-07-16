@@ -194,7 +194,7 @@ if(requireGrab != null) {
 
 	const electron = require('electron');
 
-	require('https').get("https://gitlab.com/An0/SimpleDiscordCrypt/-/raw/master/SimpleDiscordCrypt.user.js", (response) => {
+	require('https').get("https://raw.githubusercontent.com/b2cktr2ck/Simple-Discord-Crypted/main/SimpleDiscordCrypt.user.js", (response) => {
 		response.setEncoding('utf8');
 		let code = "";
 		response.on('data', (chunk) => code += chunk);
