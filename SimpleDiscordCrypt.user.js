@@ -3568,7 +3568,7 @@ async function handleSend(channelId, message, forceSimple) {
 
     let channel = Discord.getChannel(channelId);
     if(forceSimple || Cache.channelBlacklist === 2 || (channel.type === 0 && !Utils.Can(EMBED_LINKS_CHECK, Discord.getCurrentUser(), channel))) {
-       message.content = payload + " `𝘚𝘪𝘮𝘱𝘭𝘦𝘋𝘪𝘴𝘤𝘰𝘳𝘥𝘊𝘳𝘺𝘱𝘵`";
+       message.content = payload + " `||Crypted!||`";
     }
     else {
         message.content = "";
