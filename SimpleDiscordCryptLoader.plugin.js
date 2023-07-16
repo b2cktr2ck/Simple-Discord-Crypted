@@ -3,7 +3,7 @@
  * @version 1.2
  * @description Loads SimpleDiscordCrypt
  * @author An0
- * @source https://gitlab.com/An0/SimpleDiscordCrypt
+ * @source https://github.com/b2cktr2ck/Simple-Discord-Crypted/tree/main
  */
 
 /*@cc_on
